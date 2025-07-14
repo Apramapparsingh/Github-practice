@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            background-color: rgb(195, 224, 248);
+            font-family: Arial, sans-serif;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+
+        form {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border: 1px solid #ccc;
+            height: 35vh;
+            width: 25vw;
+            text-align: left;
+            background-color: aliceblue;
+        }
+
+        .submit {
+            text-align: center;
+            margin: 20px;
+        }
+
+        footer {
+            background-color: rgb(136, 164, 173);
+            padding: 10px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div>
+            <h1>Contact Us</h1>
+        </div>
+        <form action="">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name"><br><br>
+            </div>
+            <div>
+                <label for="phone">Contact No: </label>
+                <input type="text" id="phone"><br><br>
+            </div>
+            <div>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label><br><br>
+            </div>
+            <div>
+                <label for="date">DOB:</label>
+                <input type="date" id="date"><br><br>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </main>
+    <footer>
+        &copy; 2025 GNDEC Apraappar Singh 2434928
+    </footer>
+</body>
+
+</html>
